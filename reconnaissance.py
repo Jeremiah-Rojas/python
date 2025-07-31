@@ -1,3 +1,8 @@
+'''
+The following python script can be run on either a Windows or Unix based system.
+This script returns simple basic host and network information and then clears the system logs.
+'''
+
 import platform # type: ignore
 import os
 import socket # type: ignore
@@ -15,11 +20,11 @@ if platform.system() == "Windows":
     print(os.system("ipconfig /displaydns"))
 else:
     print(os.system("ip a"))
-'''
+
 # Clearing the Logs
 if platform.system() == "Windows":
     print(os.system("wevtutil cl System"))
     print(os.system("wevtutil cl Security"))
 else:
     print(os.system("> /var/log/auth.log"))
-'''
+
