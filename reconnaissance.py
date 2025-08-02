@@ -19,7 +19,7 @@ print("DNS Information:")
 if platform.system() == "Windows":
     print(os.system("ipconfig /displaydns"))
 else:
-    print(os.system("ip a"))
+    print(os.system("cat /etc/resolv.conf"))
 
 # Clearing the Logs
 if platform.system() == "Windows":
