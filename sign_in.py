@@ -8,9 +8,9 @@ import time
 
 # Navigates to www.example.com in firefox (You can change the browser by changing the file path accordingly)
 subprocess.Popen([r"C:\Program Files\Mozilla Firefox\firefox.exe", "www.example.com"])
-time.sleep(5)
+time.sleep(5) # pauses for 5 seconds
 
-# Clicks on the account name
+# Clicks on the account name (Note, you can leave this code out if it is not necessary for your use case.)
     # To find the position of where you want to click, run the commands:
     #  time.sleep(4)
     #  print(pyautogui.position())
