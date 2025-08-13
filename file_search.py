@@ -1,5 +1,5 @@
 '''
-This code is meant to help you find all types of files in a single directory. 
+This code is meant to help you find all files of a certain extension in a single directory. 
 '''
 
 import os
