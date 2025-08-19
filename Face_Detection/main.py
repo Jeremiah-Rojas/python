@@ -1,3 +1,4 @@
+# References the OpenCV (Open Source Computer Vision Library) module which is used for computer vision, image processing, and video analysis
 import cv2
 
 # Referencing the file that detects faces
