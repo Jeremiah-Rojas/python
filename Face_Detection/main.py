@@ -1,7 +1,7 @@
 # References the OpenCV (Open Source Computer Vision Library) module which is used for computer vision, image processing, and video analysis
 import cv2
 
-# Referencing the file that detects faces
+# Referencing the file that detects faces "haarcascade_frontalface_default.xml". Do not modify the xml file.
 detect = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 # Opens the desired image
 imp_img = cv2.VideoCapture("D:\\Face_Detection\\trump.jpg")
