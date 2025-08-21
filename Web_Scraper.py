@@ -1,3 +1,7 @@
+'''
+The code below gets the text from a stock market site and outputs the obtained information into a CSV file
+'''
+
 # Requests module allows you to send HTTP/HTTPS requests to web servers
 # BeautifulSoup module is used for parsing HTML and XML documents
 # csv module allows you to read and write to a CSV file
