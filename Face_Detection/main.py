@@ -1,3 +1,6 @@
+'''
+This program opens up a specified image (shown at imp_img) and creates a square highlighted where it is detecting a human face.
+'''
 # References the OpenCV (Open Source Computer Vision Library) module which is used for computer vision, image processing, and video analysis
 import cv2
 
