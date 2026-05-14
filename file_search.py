@@ -1,5 +1,6 @@
 '''
-This code is meant to help you find all files of a certain extension in a single directory. 
+This code is meant to help you find all files of a certain extension in a single directory.
+This code was inspired/based off of a lecture found on the O'Reilly Learning Platform: https://www.oreilly.com/videos/complete-python-scripting/9781800203181/
 '''
 
 import os
